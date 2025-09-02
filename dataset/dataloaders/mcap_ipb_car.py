@@ -589,6 +589,9 @@ class McapIPBCarDataloader:
                 if "width" in camera_calib and "height" in camera_calib:
                     self.cam_widths[cam_name] = int(camera_calib["width"])
                     self.cam_heights[cam_name] = int(camera_calib["height"])
+                else:
+                    self.cam_widths[cam_name] = 2048
+                    self.cam_heights[cam_name] = 1536
                 
                 # print(f"Loaded calibration for camera {cam_name}")
                 # print(f"  Image size: {self.cam_widths[cam_name]}x{self.cam_heights[cam_name]}")
