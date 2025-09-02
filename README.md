@@ -33,9 +33,9 @@
 
 ### SLAM demo
 
-| HKU | KITTI |
-| :-: | :-: |
-| <video src='https://github.com/user-attachments/assets/d4de3d86-589d-4f84-ad30-102fdac9fb53'> | <video src='https://github.com/user-attachments/assets/332c8633-6ff6-4dc2-bd42-19944cc8cfed'> | 
+| HKU | KITTI | IPB Car |
+| :-: | :-: | :-: |
+| <video src='https://github.com/user-attachments/assets/d4de3d86-589d-4f84-ad30-102fdac9fb53'> | <video src='https://github.com/user-attachments/assets/332c8633-6ff6-4dc2-bd42-19944cc8cfed'> | <video src='https://github.com/user-attachments/assets/839208c0-18ab-401a-bc67-747889f539b2'> |
 
 
 </details>
