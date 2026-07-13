@@ -1101,7 +1101,7 @@ class Mapper:
                     cur_img_idx = torch.randperm(long_term_img_pool_size)[0]
                     viewpoint_cam: CamImage = self.cam_long_term_train_pool[cur_img_idx]
                     train_down_rate = down_rate_long_term
-                    weight_down_rate = 4^(down_rate_long_term-down_rate_short_term)
+                    weight_down_rate = 4**(down_rate_long_term-down_rate_short_term)
                     dist_to_cur_frame = torch.norm((viewpoint_cam.camera_center - cur_local_map_center), 2)
                     if dist_to_cur_frame > self.config.local_map_radius: # out of the local map, then we have a min threshold for visual neural point in the local map to rule out those not relevant views
                         cur_min_visible_neural_point_ratio = self.config.min_visible_neural_point_ratio
